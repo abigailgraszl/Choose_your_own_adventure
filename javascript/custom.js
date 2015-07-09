@@ -47,7 +47,6 @@ $(document).ready(function(){
 	}
 
 
-
 	////jump choice
 
 	$("#Btn11").click(function(){
@@ -108,5 +107,57 @@ $(document).ready(function(){
 			break;
 	}
 
+
+	// Stay Choice
+
+	$("#Btn21").click(function(){
+		$("#stayChoice").fadeOut(1000, function(){
+			window.location="freakout.html";
+		});
+	});
+
+	switch (pg){
+		case 31:
+			$("#freakChoice").fadeIn(1000);
+			break;
+	}
+
+	$("#endBtn4").click(function(){
+		$("#freakChoice").fadeOut(1000, function(){
+			window.location="index.html";
+		});
+	});
+
+	switch (pg){
+		case 0:
+			$("#home").fadeIn(1000);
+			break;
+	}
+
+
+
+	$("#Btn22").click(function(){
+		$("#stayChoice").fadeOut(1000, function(){
+			window.location="cool.html";
+		});
+	});
+
+	switch (pg){
+		case 32:
+			$("#coolChoice").fadeIn(1000);
+			break;
+	}
+
+	$("#endBtn3").click(function(){
+		$("#coolChoice").fadeOut(1000, function(){
+			window.location="index.html";
+		});
+	});
+
+	switch (pg){
+		case 0:
+			$("#home").fadeIn(1000);
+			break;
+	}
 
 });
