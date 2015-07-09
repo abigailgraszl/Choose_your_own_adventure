@@ -1,0 +1,103 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Choose Your Own Adventure</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/custom.css">
+		<script>var pg = 2;</script>
+	</head>	
+
+	<body id="firstChoice">
+		<div class="container-fluid">
+			
+			<div id="centralChoice">
+
+				<div id="nav">
+					<div class="row">
+						<div class="col-md-10"><a href="index.html"><img src="photos/arrow.png"></a></div>	
+						<div class="col-md-2"><a href="index.html">Begin Again</a></div>
+					</div>
+				</div>
+
+				<div id="centralWords">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-4 firstWord">You</div>
+						<div class="col-md-6"></div>
+					</div>
+					<div class="row" id="walk">
+						<div class="col-md-6"></div>
+						<div class="col-md-5">are walking through Central Park, contemplating Chinese take out for dinner. You aren't paying much attention, pulling up the take-out number on your phone, when you happen to glance up and see a skateboarder coming straight towards you. <span class="do">Do you...</span></div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-2"><img src="photos/smallarrow.png" id="downarrow" height="150px" width="150px"></div>
+						<div class="col-md-5"></div>
+					</div>
+				</div>	
+	
+			</div>
+
+			<div id="choose1">
+				<div class="row" id="rowWhite">
+					<div class="col-md-1"></div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-12"><img src="photos/jump.jpg"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-12" id="span2"><span>...Jump</span></div>
+						</div>
+						<div class="row" id="para">
+							<div class="col-md-12">quickly out of the way of the oncoming skateboarder?</div>
+						</div>
+						
+						<div id="btnCh">		
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#" class="btn btn-primary btn-lg active" id="Btn1" role="button">I Jump</a>		
+								</div>
+							</div>					
+						</div>
+					</div>			
+					<div class="col-md-2">OR</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-12"><img src="photos/stand.jpg"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-12" id="span2"><span>...Stay</span></div>
+						</div>
+						<div class="row" id="para">
+							<div class="col-md-12">where you are and hope the skateboarder alters his path in time?</div>
+						</div>
+						
+						<div id="btnCh">		
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#" class="btn btn-primary btn-lg active" id="Btn2" role="button">I Stay</a>		
+								</div>
+							</div>					
+						</div>
+					</div>			
+					<div class="col-md-1"></div>
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="javascript/bootstrap.js"></script>
+		<script src="javascript/custom.js"></script>
+
+	</body>
+
+</html>

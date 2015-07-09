@@ -4,13 +4,23 @@
 		<title>Choose Your Own Adventure</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
-		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Patua+One|Pacifico' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/custom.css">
+		<script>var pg = 0;</script>
+
 	</head>	
 
-	<body>
+	<body id="home">
 		<div class="container-fluid">
 			<div id="main">
+
+				<div id="nav">
+					<div class="row">
+						<div class="col-md-10"><a href="index.html"><img src="photos/arrow.png"></a></div>
+						<div class="col-md-2"><a href="index.html">Begin Again</a></div>
+					</div>
+				</div>
+
 
 				<div id="words">
 					<div class="row empty">
@@ -31,7 +41,7 @@
 				<div id="btn">		
 					<div class="row">
 						<div class="col-md-12">
-							<a href="#" class="btn btn-primary btn-lg active" role="button">Begin</a>			
+							<a href="#" class="btn btn-primary btn-lg active" id="beginBtn" role="button">Begin your Story</a>			
 						</div>
 					</div>					
 				</div>
@@ -45,6 +55,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="javascript/bootstrap.js"></script>
+		<script src="javascript/custom.js"></script>
 
 	</body>
 
