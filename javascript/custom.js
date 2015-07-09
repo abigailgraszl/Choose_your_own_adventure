@@ -34,6 +34,20 @@ $(document).ready(function(){
 			break;
 	}
 
+	$("#Btn2").click(function(){
+		$("#firstChoice").fadeOut(1000, function(){
+			window.location="stayChoice.html";
+		});
+	});
+
+	switch (pg){
+		case 3:
+			$("#stayChoice").fadeIn(1000);
+			break;
+	}
+
+
+
 	////jump choice
 
 	$("#Btn11").click(function(){
@@ -47,6 +61,20 @@ $(document).ready(function(){
 			$("#danceChoice").fadeIn(1000);
 			break;
 	}
+
+	$("#Btn12").click(function(){
+		$("#jumpChoice").fadeOut(1000, function(){
+			window.location="step.html";
+		});
+	});
+
+	switch (pg){
+		case 22:
+			$("#stepChoice").fadeIn(1000);
+			break;
+	}
+
+
 
 	///Dance page
 
@@ -66,5 +94,19 @@ $(document).ready(function(){
 			$("#home").fadeIn(1000);
 			break;
 	}
+
+	///Step page
+	$("#endBtn2").click(function(){
+		$("#stepChoice").fadeOut(1000, function(){
+			window.location="index.html";
+		});
+	});
+
+	switch (pg){
+		case 0:
+			$("#home").fadeIn(1000);
+			break;
+	}
+
 
 });

@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Choose Your Own Adventure</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/custom.css">
+		<script>var pg = 22;</script>
+	</head>	
+
+	<body id="stepChoice">
+		<div class="container-fluid">
+			
+			<div id="cafeChoice">
+
+				<div id="nav">
+					<div class="row">
+						<div class="col-md-10"><a href="index.html"><img src="photos/arrow.png"></a></div>	
+						<div class="col-md-2"><a href="index.html">Begin Again</a></div>
+					</div>
+				</div>
+
+				<div id="centralWords">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-4 firstWord">Laughter</div>
+						<div class="col-md-6"></div>
+					</div>
+					<div class="row" id="walk">
+						<div class="col-md-6"></div>
+						<div class="col-md-5">reaches your ears as you duck out of the circle. You turn around to see your ex laughing at your lack of performance. Not exactly the person you would have wanted to witness your clumsiness, but it is good to see them nonetheless. The two of you decided to head to a nearby cafe to catch up.</div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-2"><img src="photos/smallarrow.png" id="downarrowEnd" height="150px" width="150px"></div>
+						<div class="col-md-5"></div>
+					</div>
+				</div>	
+	
+			</div>
+
+			<div id="chooseFinal">
+				<div class="row empty">
+					<div class="col-md-12"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">The End</div>
+					<div class="col-md-2"></div>
+				</div>
+
+				<div id="btn">		
+					<div class="row">
+						<div class="col-md-12">
+							<a href="#" class="btn btn-primary btn-lg active" id="endBtn2" role="button">Journey Again</a>			
+						</div>
+					</div>					
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="javascript/bootstrap.js"></script>
+		<script src="javascript/custom.js"></script>
+
+	</body>
+
+</html>
